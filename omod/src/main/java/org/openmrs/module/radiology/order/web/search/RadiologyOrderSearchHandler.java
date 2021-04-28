@@ -63,8 +63,8 @@ public class RadiologyOrderSearchHandler implements SearchHandler {
                 REQUEST_PARAM_TOTAL_COUNT)
             .build();
     
-    private final SearchConfig searchConfig =
-            new SearchConfig("default", RestConstants.VERSION_1 + "/radiologyorder", Arrays.asList("2.0.*"), searchQuery);
+    private final SearchConfig searchConfig = new SearchConfig("default", RestConstants.VERSION_1 + "/radiologyorder",
+            Arrays.asList("2.0.*", "2.1.*"), searchQuery);
     
     /**
      * @see org.openmrs.module.webservices.rest.web.resource.api.SearchHandler#getSearchConfig()

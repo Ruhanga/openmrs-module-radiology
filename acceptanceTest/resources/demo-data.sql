@@ -294,7 +294,7 @@ COMMIT;
 --  for the Radiology Order concept (the orderable)
 -- ----------------------------
 BEGIN;
-INSERT INTO `concept_class` VALUES (22,'Radiology/Imaging Procedure','A radiology or imaging test or procedure.',1,'2012-09-30 20:59:43',0,1,NULL,NULL,'8caa332c-efe4-4025-8b18-3398328e1323');
+INSERT INTO `concept_class` VALUES (22,'Radiology/Imaging Procedure','A radiology or imaging test or procedure.',1,'2012-09-30 20:59:43',0,1,NULL,NULL,'8caa332c-efe4-4025-8b18-3398328e1323',NULL,1);
 
 -- ----------------------------
 --  Records of `concept`

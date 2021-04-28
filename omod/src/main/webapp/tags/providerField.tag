@@ -18,7 +18,7 @@
         $j.ajax({
           headers: {
             Accept: "application/json; charset=utf-8",
-            "Content-Type": "text/plain; charset=utf-8",
+            "Content-Type": "application/json; charset=utf-8",
           },
           cache: true,
           dataType: "json",
